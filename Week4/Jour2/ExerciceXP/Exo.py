@@ -1,4 +1,3 @@
-"""
 #Exercice1:Set
 my_fav_numbers={"4","8","17","2"}
 my_fav_numbers.update(["5","10"])
@@ -121,7 +120,7 @@ while i<=len(noms):
 print(noms)
 print("****************************************************")
 input()
-"""
+
 
 #Exercice 10: Commande Sandwich
 
@@ -135,3 +134,5 @@ while len(sandwich_orders)!=0:
 			finished_sandwishes.append(f"{sandwich_orders.pop(sandwich_orders.index(sandwich))}")
 			print(f"{sandwich} a été préparé")
 print(finished_sandwishes)		
+
+#Exercice11:
