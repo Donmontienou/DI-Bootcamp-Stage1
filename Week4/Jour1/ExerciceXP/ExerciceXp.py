@@ -1,5 +1,5 @@
 #Exercice1:Bonjour le monde
-print("Hello world\nHello world\nHello world\nHello world")
+print(4*"Hello world\n")
 print("*****************************************************")
 input()
 
@@ -62,10 +62,11 @@ print("*****************************************************")
 input()
 
 #Exercice9
-taille=input("Quel est votr taille en pouces? ")
-if taille>"145 cm":
-	print("vous êtes assez grands pour rouler")
+taille=float(input("Quel est votr taille en pouces? "))
+x=taille*2.54
+if x>145.0:
+	print(f"Votre taille est {x} cm vous êtes assez grands pour rouler")
 else:
-	print("Vous devez grandir un peu plus pour rouler")
+	print(f"Votre taille est {x} cm vous devez grandir un peu plus pour rouler")
 print("*****************************************************")
 
