@@ -12,10 +12,12 @@ input()
 
 
 #Défi 2
+liste=[]
 chaîne=input("Entrez une chaîne: ")
-chaîne=set(chaîne)
-new=" "
+
+liste.append(chaîne[0])
 for i in chaîne:
-	new=new+i
-print(new)
+	if liste[-1]!=i:
+		liste.append(i)
+print("".join(liste))
 
