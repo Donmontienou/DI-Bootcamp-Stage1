@@ -12,6 +12,7 @@ for letter in mot:
 	dic_mot[letter]=indice
 print(dic_mot)
 system("pause")
+
 print("******************Defi 2******************")
 
 
