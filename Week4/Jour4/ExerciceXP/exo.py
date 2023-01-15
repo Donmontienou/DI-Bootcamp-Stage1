@@ -1,19 +1,19 @@
 from os import system
 import random
 
-print("						EXERCICE 1")
+print("\t\t\t\tEXERCICE 1")
 def display_message():
 	print("Nous avons vu:\nLa syntaxe d'une fonction\nLes fonctions Lambda,Map,Reduce,Filter")
 display_message()
 system("pause")
 
-print("						EXERCICE 2")
+print("\t\t\t\tEXERCICE 2")
 def favorite_book(title):
 	print("One of my favorite books is", title)
 favorite_book("Une si longue lettre de Mariama BA")
 
 
-print("						EXERCICE 3")
+print("\t\t\t\tEXERCICE 3")
 def describe_city(city,country):
 	print(f"{city} est au {country}")
 describe_city("Diebougou","Burkina_Faso")
@@ -26,7 +26,7 @@ system("pause")
 
 
 
-print("						EXERCICE 5")
+print("\t\t\t\tEXERCICE 5")
 def make_shirt(taille,texte):
 	print(f"La taille de mon tee-shirt est {taille} et le texte est {texte}")
 make_shirt("M","Royalty")
@@ -48,7 +48,7 @@ make_shirt("XXXL","l'union fait la force")
 system("pause")
 
 
-print("						EXERCICE 6")
+print("\t\t\t\tEXERCICE 6")
 magician_names=["Harry Houdini","David BLZINE","Criss Angel"]
 def show_magicians(magician_names):
 	for names in magician_names:
@@ -66,7 +66,7 @@ make_great(magician_names)
 show_magicians(magician_names)
 system("pause")
 
-print("						EXERCICE 7")
+print("\t\t\t\tEXERCICE 7")
 print("Question 1")
 def get_random_temp():
 	return random.randint(-10,40)

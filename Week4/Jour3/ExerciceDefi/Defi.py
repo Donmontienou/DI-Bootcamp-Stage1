@@ -1,4 +1,5 @@
 from os import system
+import string
 print("******************Defi 1******************")
 
 mot=input("Entrez un mot: ")

@@ -34,7 +34,11 @@ input()
 print("Un float est un nombre à virgule")
 print("La difference entre un entier et un flottant est que un entier ne doit pas avoir une virgule c'est à dire un entier naturel alors que le flottant peut avoir une virgule comme il peut ne pas avoir de virgule cas des réels ")
 print("")
-liste=[1.5,2,2.5,3,3.5,4,4.5,5]
+liste=[]
+i=1
+while i<=5:
+	liste.append(i)
+	i+=0.5
 print(liste)
 print("****************************************************")
 

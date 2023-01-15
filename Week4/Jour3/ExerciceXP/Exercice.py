@@ -3,6 +3,7 @@ from os import system
 keys=["Ten","Twenty","Thirty"]
 values=[10,20,30]
 nombres={x:y for x,y in zip(keys,values)}
+#dictionnaire=dict(zip(keys,values))
 print(nombres)
 system("pause")
 print("*************************************************")
