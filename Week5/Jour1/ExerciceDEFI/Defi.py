@@ -22,7 +22,7 @@ class Farm():
             self.liste[name]=nombre
 
 
-    def get_short_type(self):
+    def get_animal_type(self):
        noms=[]
        for name in self.liste:
         noms.append(name)
